@@ -14,22 +14,17 @@ allows you to render all 1,000 of our videos in less than 30 seconds.**
 
 ## Shotstack API key
 
-The speed behind this example was made possible through a Shotstack Enterprise account, but you can sign up for a
-[free account](https://dashboard.shotstack.io/register) that provides you with all the same functionalities
-and allows you to test the service.
+You can sign up for a [free developer account](https://dashboard.shotstack.io/register).
 
-The example in this article has some throttling built in, but you'll have to be aware of the usage limits of 1 request
-per second, and 2,000 requests per month for free accounts if you plan to try this out yourself.
+Just be aware of throttling as the free account allows for 1 request per second.
 
 ## Personalised videos using Node.js
 
-I'll use vanilla javascript through [Node.js](https://nodejs.org/en/) to build the application, but feel free to use what
-works for you. We have SDKs available for [PHP](https://github.com/shotstack/shotstack-sdk-php), [Node](https://github.com/shotstack/shotstack-sdk-node), and [Ruby](https://github.com/shotstack/shotstack-sdk-ruby).
+I'll use vanilla javascript through [Node.js](https://nodejs.org/en/) to build the application, but feel free to use what works for you. We have SDKs available for [PHP](https://github.com/shotstack/shotstack-sdk-php), [Node](https://github.com/shotstack/shotstack-sdk-node), [Ruby](https://github.com/shotstack/shotstack-sdk-ruby) and [Python](https://github.com/shotstack/shotstack-sdk-python).
 
 ### Personalised videos using Integromat
 
-You can also use our [Integromat app](https://www.integromat.com/en/integrations/shotstack?pc=shotstack) to achieve
-the same result without using any code at all.
+You can also use our [Make app](https://www.make.com/en/integrations/shotstack?pc=shotstack) to achieve the same result without using any code at all.
 
 # Choosing our footage
 

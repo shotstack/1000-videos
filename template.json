@@ -1,0 +1,128 @@
+{
+  "timeline": {
+    "fonts": [
+      {
+        "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/FiraCode-Regular.ttf"
+      },
+      {
+        "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/Nexa-Bold.otf"
+      }
+    ],
+    "background": "#000000",
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p>firstName</p>",
+              "css": "p { font-family: \"Nexa Bold\"; font-size: 128px; color: #ffffff; text-align: left; }"
+            },
+            "start": 2.35,
+            "length": 1.45,
+            "offset": {
+              "y": -0.23,
+              "x": 0.05
+            },
+            "transition": {
+              "out": "carouselDown"
+            }
+          },
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p><b>age</b></p>",
+              "css": "p { font-family: \"Nexa Bold\"; font-size: 149px; color: white; text-align: left; }"
+            },
+            "position": "center",
+            "start": 5.2,
+            "length": 1.3,
+            "offset": {
+              "y": -0.23,
+              "x": 0.05
+            },
+            "transition": {
+              "in": "zoom",
+              "out": "zoom"
+            }
+          },
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p><b>fakeAge</b></p>",
+              "css": "p { font-family: \"Nexa Bold\"; font-size: 384px; color: #ffffff; text-align: left;}"
+            },
+            "position": "center",
+            "start": 11.15,
+            "length": 2.5,
+            "offset": {
+              "y": -0.05,
+              "x": 0.05
+            },
+            "transition": {
+              "out": "carouselLeft"
+            }
+          },
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p>discountCode</p>",
+              "css": "p { font-family: \"Fira Coda\"; font-size: 42px; color: #3498db; text-align: center; background-color: #ffffff; padding: 32px; line-height: 106px; }",
+              "width": 320,
+              "height": 107
+            },
+            "start": 17.2,
+            "length": 4.8,
+            "offset": {
+              "y": -0.05,
+              "x": 0
+            }
+          },
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p>For discount Off</p>",
+              "css": "p { font-family: \"Nexa Bold\"; font-size: 58px; color: #3498db; text-align: left;} span { color: #e74c3c; }"
+            },
+            "start": 19.2,
+            "length": 1.2,
+            "offset": {
+              "y": -0.302,
+              "x": 0.04
+            }
+          },
+          {
+            "asset": {
+              "type": "html",
+              "html": "<p>For <span>discount Off</span></p>",
+              "css": "p { font-family: \"Nexa Bold\"; font-size: 58px; color: #3498db; text-align: left;} span { color: #e74c3c; }"
+            },
+            "start": 20.3,
+            "length": 1.7,
+            "offset": {
+              "y": -0.302,
+              "x": 0.04
+            }
+          }
+        ]
+      },
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "video",
+              "src": "https://shotstack-content.s3-ap-southeast-2.amazonaws.com/birthday/birthday-template.mp4",
+              "volume": 1
+            },
+            "start": 0,
+            "length": 22
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "resolution": "sd"
+  }
+}
